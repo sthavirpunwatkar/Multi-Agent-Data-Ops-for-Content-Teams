@@ -1,0 +1,12 @@
+
+services:
+  dataops:
+    build: .
+    container_name: dataops_mock
+    environment:
+      - OPENAI_API_KEY=dummy
+      - SERPAPI_API_KEY=dummy
+      - USE_MOCKS=true
+    volumes:
+      - .:/app
+
