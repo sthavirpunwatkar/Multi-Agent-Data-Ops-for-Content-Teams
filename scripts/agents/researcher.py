@@ -1,5 +1,5 @@
-from scripts.adapters.serpapi_adapter import SerpClient
-from scripts.adapters.openai_adapter import ChatClient
+from scripts.adapters.ddg_adapter import SearchClient as SerpClient
+from scripts.adapters.gemini_adapter import ChatClient
 from scripts.utils import save_json
 
 class ResearcherAgent:

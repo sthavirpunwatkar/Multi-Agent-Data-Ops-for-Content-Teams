@@ -1,4 +1,4 @@
-from scripts.adapters.openai_adapter import ChatClient
+from scripts.adapters.gemini_adapter import ChatClient
 from scripts.utils import save_json
 import json
 

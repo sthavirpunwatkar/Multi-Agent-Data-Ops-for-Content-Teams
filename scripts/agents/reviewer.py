@@ -1,7 +1,8 @@
-from scripts.adapters.openai_adapter import ChatClient
-from scripts.utils import save_text
+from scripts.adapters.gemini_adapter import ChatClient
+from scripts.utils import load_text, save_text
 
 class ReviewerAgent:
+
     def run(self, draft_content, prd_text, out_path="data/reviewed_draft.md"):
         # Construct messages to send to LLM
         messages = [

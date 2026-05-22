@@ -1,3 +1,23 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 .pytest_cache/
+
+# Project Data
+data/test_*
+data/sources.json
+data/outline.json
+data/draft.md
+data/reviewed_draft.md
+
+# IDEs
+.vscode/
+.idea/
