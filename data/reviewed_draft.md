@@ -1,0 +1,1 @@
+Mock idea: include equipment list and recipe.
