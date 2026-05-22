@@ -21,3 +21,6 @@ data/reviewed_draft.md
 # IDEs
 .vscode/
 .idea/
+
+# Graphify
+graphify-out/

@@ -1,6 +1,6 @@
 # AI and Search
 google-generativeai
-duckduckgo-search
+ddgs
 streamlit
 
 # Core libs
