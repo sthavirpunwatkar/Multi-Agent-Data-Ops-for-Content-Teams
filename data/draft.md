@@ -1,0 +1,1 @@
+Mock summary: friendly blog about baking.
