@@ -34,9 +34,8 @@ The pipeline is designed to be highly modular so that individual developers or A
 
 ## Tech Stack
 - **Language:** Python 3
-- **LLM/Embeddings:** OpenAI (Currently heavily mocked in `scripts/mocks/mock_openai.py`)
-- **Search:** SerpApi (Mocked via `scripts/mocks/mock_serpapi.py`)
-- **Environment:** Mocking toggled via `USE_MOCKS` environment variable (`true` by default).
+- **LLM:** Gemini API via `google-generativeai` (requires `GEMINI_API_KEY` in environment variables)
+- **Search:** DuckDuckGo via `duckduckgo-search` (completely free, no API key required)
 
 ## State
 Currently, the pipeline contains the Researcher agent, Outliner agent, Drafter agent, and Reviewer agent. Runner scripts exist for each step. Each agent reads from standard input JSON/Markdown files and outputs to standard JSON/Markdown files to decouple the stages.

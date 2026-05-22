@@ -10,11 +10,10 @@ If you are an AI agent or developer assigned to work on this repository, please 
 
 ## Tech Stack
 - Python 3
-- OpenAI API (via `scripts/adapters/openai_adapter.py`)
-- SerpApi (via `scripts/adapters/serpapi_adapter.py`)
+- Gemini API (via `scripts/adapters/gemini_adapter.py`)
+- DuckDuckGo Search (via `scripts/adapters/ddg_adapter.py`)
 
 ## Development Rules
-1. **Use Mocks by Default:** The system relies on mock implementations (`scripts/mocks/`) by default so we don't spend unnecessary API credits during testing. Ensure your code works with the existing mocks.
 2. **Decoupled Runners:** Every agent stage must have its own standalone runner script in `scripts/` (e.g., `run_outliner.py`). Never directly call one agent from another unless explicitly tasked to build a combined orchestrator.
 3. **Artifact Standards:**
    - Input/Output paths should be configurable via CLI arguments (using `argparse`).
